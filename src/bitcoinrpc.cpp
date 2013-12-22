@@ -125,7 +125,7 @@ double GetDifficulty(const CBlockIndex* blockindex = NULL)
         dDiff *= 256.0;
         nShift++;
     }
-    while (nShift > 29)
+    while (nShift > 29) 
     {
         dDiff /= 256.0;
         nShift--;
