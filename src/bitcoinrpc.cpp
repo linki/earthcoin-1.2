@@ -2274,29 +2274,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
     throw JSONRPCError(-8, "Invalid mode");
 }
 
-Value submitblock(const Array& params, bool fHelp)
- {
-    if (fHelp || params.size() < 1 || params.size() > 2)
-         throw runtime_error(
-             "submitblock <hex data> [optional-params-obj]\n"
-             "[optional-params-obj] parameter is currently ignored.\n"
-             "Attempts to submit new block to network.\n"
-              "See https://en.bitcoin.it/wiki/BIP_0022 for full specification.");
-    vector<unsigned char> blockData(ParseHex(params[0].get_str()));
-      CDataStream ssBlock(blockData, SER_NETWORK, PROTOCOL_VERSION);
-      CBlock block;
-      try {
-          ssBlock >> block;
-      }
-      catch (std::exception &e) {
-          throw JSONRPCError(-22, "Block decode failed");
-  }
-     bool fAccepted = ProcessBlock(NULL, &block);
-       if (!fAccepted)
-           throw JSONRPCError(-23, "Block rejected");
-   
-       return true;
-  }
+
 Value getrawmempool(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 0)
@@ -2414,7 +2392,6 @@ static const CRPCCommand vRPCCommands[] =
     { "setmininput",            &setmininput,            false },
     { "getblocktemplate",       &getblocktemplate,       true },
     { "listsinceblock",         &listsinceblock,         false },
-    { "submitblock",            &submitblock,            true },
     { "dumpprivkey",            &dumpprivkey,            false },
     { "importprivkey",          &importprivkey,          false },
     { "listunspent",            &listunspent,            false },
