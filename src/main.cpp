@@ -1741,10 +1741,6 @@ bool CBlock::CheckBlock() const
 {
     // These are checks that are independent of context
     // that can be verified before saving an orphan block.
-	/*
-    if (GetHash() == uint256("0xf7bb2778d7db7df6a39dfc76c89c176ca3102aa769213f3ff1ad6ad6800f3ccc"))
-        return error("CheckBlock() : hash == f7bb2778d7db7df6a39dfc76c89c176ca3102aa769213f3ff1ad6ad6800f3ccc");
-	*/
 
     // Size limits
     if (vtx.empty() || vtx.size() > MAX_BLOCK_SIZE || ::GetSerializeSize(*this, SER_NETWORK, PROTOCOL_VERSION) > MAX_BLOCK_SIZE)
