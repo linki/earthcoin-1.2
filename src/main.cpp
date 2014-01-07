@@ -850,12 +850,13 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 
 	int nHeightM = nHeight % 525600;
 	double phase = ((double)nHeightM) / 525600.0 * 2.0 * M_PI;
-	// printf("height = %d, phase = %f\n", nHeight, phase);
 
 	nSubsidy += ((int)(2000.0 * sin(phase))) * COIN;
 
 	// Bonus zones
 	int day = nHeight / 1440 + 1;
+	// printf(">> height = %d, phase = %f, day = %d\n", nHeight, phase, day);
+
 	if(day % 31 == 0)
 	{
 		nSubsidy *= 5;
@@ -935,12 +936,17 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
 
 	const CBlockIndex* pindexFirst = pindexLast->pprev;
 	int64 nActualSpacing = pindexLast->GetBlockTime() - pindexFirst->GetBlockTime();
+	// printf(">>> nHeight = %d, blocktime now = %"PRI64d", previous = %"PRI64d"\n",
+	//	pindexLast->nHeight, pindexLast->GetBlockTime(), pindexFirst->GetBlockTime());
 
 	// limit the adjustment
 	if (nActualSpacing < nTargetSpacing/16)
 		nActualSpacing = nTargetSpacing/16;
 	if (nActualSpacing > nTargetSpacing*16)
 		nActualSpacing = nTargetSpacing*16; 
+
+	// printf(">>> nHeight = %d, nTargetSpacing = %"PRI64d", nActualSpacing = %"PRI64d"\n",
+	//	pindexLast->nHeight, nTargetSpacing, nActualSpacing);
 
     // Retarget
     CBigNum bnNew;
@@ -1735,6 +1741,10 @@ bool CBlock::CheckBlock() const
 {
     // These are checks that are independent of context
     // that can be verified before saving an orphan block.
+	/*
+    if (GetHash() == uint256("0xf7bb2778d7db7df6a39dfc76c89c176ca3102aa769213f3ff1ad6ad6800f3ccc"))
+        return error("CheckBlock() : hash == f7bb2778d7db7df6a39dfc76c89c176ca3102aa769213f3ff1ad6ad6800f3ccc");
+	*/
 
     // Size limits
     if (vtx.empty() || vtx.size() > MAX_BLOCK_SIZE || ::GetSerializeSize(*this, SER_NETWORK, PROTOCOL_VERSION) > MAX_BLOCK_SIZE)
