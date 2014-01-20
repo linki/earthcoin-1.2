@@ -5,7 +5,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
         <source>About Bitcoin</source>
-        <translation>Bitcoin hakkında</translation>
+        <translation>Earthcoin hakkında</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
@@ -21,7 +21,7 @@ This is experimental software.
 Distributed under the MIT/X11 software license, see the accompanying file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>Telif hakkı © 2009-2012 Bitcoin geliştiricileri
+        <translation>Telif hakkı © 2009-2012 Earthcoin geliştiricileri
 
 Bu yazılım deneme safhasındadır.
 
@@ -39,8 +39,8 @@ Bu ürün OpenSSL projesi tarafından OpenSSL araç takımı (http://www.openssl
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödemeleri almak için Bitcoin adresleridir.  Kimin ödeme yaptığını izleyebilmek için her ödeme yollaması gereken kişiye değişik bir adres verebilirsiniz.</translation>
+        <source>These are your Earthcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödemeleri almak için Earthcoin adresleridir.  Kimin ödeme yaptığını izleyebilmek için her ödeme yollaması gereken kişiye değişik bir adres verebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="36"/>
@@ -223,8 +223,8 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Şifreleme işlemini tamamlamak için Bitcoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, Bitcoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
+        <source>Earthcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your earthcoins from being stolen by malware infecting your computer.</source>
+        <translation>Şifreleme işlemini tamamlamak için Earthcoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, Bitcoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="207"/>
@@ -278,8 +278,8 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="73"/>
-        <source>Bitcoin Wallet</source>
-        <translation>Bitcoin cüzdanı</translation>
+        <source>Earthcoin Wallet</source>
+        <translation>Earthcoin cüzdanı</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="215"/>
@@ -329,7 +329,7 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="203"/>
         <source>&amp;Receive coins</source>
-        <translation>Bitcoin &amp;al</translation>
+        <translation>Earthcoin &amp;al</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="204"/>
@@ -339,7 +339,7 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="209"/>
         <source>&amp;Send coins</source>
-        <translation>Bitcoin &amp;yolla</translation>
+        <translation>Earthcoin &amp;yolla</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="216"/>
@@ -364,7 +364,7 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
         <source>Show information about Bitcoin</source>
-        <translation>Bitcoin hakkında bilgi gösterir</translation>
+        <translation>Earthcoin hakkında bilgi gösterir</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="242"/>
@@ -413,18 +413,18 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Bir Bitcoin adresine Bitcoin yollar</translation>
+        <source>Send coins to a Earthcoin address</source>
+        <translation>Bir Earthcoin adresine Earthcoin yollar</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="246"/>
         <source>Modify configuration options for Bitcoin</source>
-        <translation>Bitcoin seçeneklerinin yapılandırmasını değiştirir</translation>
+        <translation>Earthcoin seçeneklerinin yapılandırmasını değiştirir</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show or hide the Bitcoin window</source>
-        <translation>Bitcoin penceresini göster ya da sakla</translation>
+        <source>Show or hide the Earthcoin window</source>
+        <translation>Earthcoin penceresini göster ya da sakla</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="251"/>
@@ -500,13 +500,13 @@ Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="343"/>
         <location filename="../bitcoingui.cpp" line="399"/>
-        <source>Bitcoin client</source>
-        <translation>Bitcoin istemcisi</translation>
+        <source>Earthcoin client</source>
+        <translation>Earthcoin istemcisi</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="492"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>Bitcoin şebekesine %n etkin bağlantı</numerusform></translation>
+        <source>%n active connection(s) to Earthcoin network</source>
+        <translation><numerusform>Earthcoin şebekesine %n etkin bağlantı</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="540"/>
@@ -613,8 +613,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="112"/>
-        <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ciddi bir hata oluştu. Artık Bitcoin güvenli bir şekilde işlemeye devam edemez ve kapanacaktır.</translation>
+        <source>A fatal error occured. Earthcoin can no longer continue safely and will quit.</source>
+        <translation>Ciddi bir hata oluştu. Artık Earthcoin güvenli bir şekilde işlemeye devam edemez ve kapanacaktır.</translation>
     </message>
 </context>
 <context>
@@ -640,7 +640,7 @@ Adres: %4
     <message>
         <location filename="../optionsdialog.cpp" line="263"/>
         <source>The user interface language can be set here. This setting will only take effect after restarting Bitcoin.</source>
-        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar Bitcoin tekrar başlatıldığında etkinleşecektir.</translation>
+        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar Earthcoin tekrar başlatıldığında etkinleşecektir.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="252"/>
@@ -655,7 +655,7 @@ Adres: %4
     <message>
         <location filename="../optionsdialog.cpp" line="277"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Bitcoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz</translation>
+        <translation>Earthcoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="284"/>
@@ -664,8 +664,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="285"/>
-        <source>Whether to show Bitcoin addresses in the transaction list</source>
-        <translation>Muamele listesinde Bitcoin adreslerinin gösterilip gösterilmeyeceklerini belirler</translation>
+        <source>Whether to show Earthcoin addresses in the transaction list</source>
+        <translation>Muamele listesinde Earthcoin adreslerinin gösterilip gösterilmeyeceklerini belirler</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
@@ -675,7 +675,7 @@ Adres: %4
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
         <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>Bu ayarlar Bitcoin tekrar başlatıldığında etkinleşecektir.</translation>
+        <translation>Bu ayarlar Earthcoin tekrar başlatıldığında etkinleşecektir.</translation>
     </message>
 </context>
 <context>
@@ -732,8 +732,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>Girilen &quot;%1&quot; adresi geçerli bir Bitcoin adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Earthcoin address.</source>
+        <translation>Girilen &quot;%1&quot; adresi geçerli bir Earthcoin adresi değildir.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -814,12 +814,12 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="222"/>
-        <source>&amp;Start Bitcoin on system login</source>
+        <source>&amp;Start Earthcoin on system login</source>
         <translation>Bitcoin&apos;i sistem oturumuyla &amp;başlat</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
-        <source>Automatically start Bitcoin after logging in to the system</source>
+        <source>Automatically start Earthcoin after logging in to the system</source>
         <translation>Sistemde oturum açıldığında Bitcoin&apos;i otomatik olarak başlat</translation>
     </message>
     <message>
@@ -907,8 +907,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../messagepage.cpp" line="30"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Bitcoin adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Earthcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Earthcoin adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="83"/>
@@ -953,8 +953,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="348"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönlendiricide Bitcoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
+        <source>Automatically open the Earthcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönlendiricide Earthcoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="351"/>
@@ -964,7 +964,7 @@ Adres: %4
     <message>
         <location filename="../optionsdialog.cpp" line="352"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Bitcoin şebekesine SOCKS4 vekil sunucusu vasıtasıyla bağlanır (mesela Tor ile bağlanıldığında)</translation>
+        <translation>Earthcoin şebekesine SOCKS4 vekil sunucusu vasıtasıyla bağlanır (mesela Tor ile bağlanıldığında)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="357"/>
@@ -1005,7 +1005,7 @@ Adres: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="204"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Earthcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Görüntülenen veriler zaman aşımını uğramış olabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak şebeke ile eşleşir ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
@@ -1122,8 +1122,8 @@ Adres: %4
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Bitcoin debug window</source>
-        <translation>Bitcoin hata ayıklama penceresi</translation>
+        <source>Earthcoin debug window</source>
+        <translation>Earthcoin hata ayıklama penceresi</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="46"/>
@@ -1205,8 +1205,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="299"/>
-        <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
-        <translation>Güncel veri klasöründen Bitcoin hata ayıklama kütüğünü aç. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
+        <source>Open the Earthcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <translation>Güncel veri klasöründen Earthcoin hata ayıklama kütüğünü aç. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="302"/>
@@ -1230,8 +1230,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="212"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Bitcoin RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the Earthcoin RPC console.</source>
+        <translation>Earthcoin RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="213"/>
@@ -1256,7 +1256,7 @@ Adres: %4
         <location filename="../sendcoinsdialog.cpp" line="148"/>
         <location filename="../sendcoinsdialog.cpp" line="153"/>
         <source>Send Coins</source>
-        <translation>Bitcoin yolla</translation>
+        <translation>Earthcoin yolla</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="64"/>
@@ -1414,8 +1414,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Bitcoin adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Earthcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Earthcoin adresi giriniz (mesela 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1863,13 +1863,13 @@ Adres: %4
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="20"/>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
-        <translation>Mesajı imzalamak için kullanılan Bitcoin adresini elde etmek için mesaj ve imzayı aşağıda giriniz (yani satırlar, boşluklar ve sekmeler gibi görünmeyen karakterleri doğru şekilde kopyalamaya dikkat ediniz).</translation>
+        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Earthcoin address used to sign the message.</source>
+        <translation>Mesajı imzalamak için kullanılan Earthcoin adresini elde etmek için mesaj ve imzayı aşağıda giriniz (yani satırlar, boşluklar ve sekmeler gibi görünmeyen karakterleri doğru şekilde kopyalamaya dikkat ediniz).</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="62"/>
-        <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
-        <translation>Mesajı kontrol et ve imzalamak için kullanılan Bitcoin adresini elde et</translation>
+        <source>Verify a message and obtain the Earthcoin address used to sign the message</source>
+        <translation>Mesajı kontrol et ve imzalamak için kullanılan Earthcoin adresini elde et</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="65"/>
@@ -1898,8 +1898,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="28"/>
-        <source>Enter Bitcoin signature</source>
-        <translation>Bitcoin imzası gir</translation>
+        <source>Enter Earthcoin signature</source>
+        <translation>Earthcoin imzası gir</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="29"/>
@@ -1973,8 +1973,8 @@ Adres: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Bitcoin version</source>
-        <translation>Bitcoin sürümü</translation>
+        <source>Earthcoin version</source>
+        <translation>Earthcoin sürümü</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="44"/>
@@ -2019,7 +2019,7 @@ Adres: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="53"/>
         <source>Don&apos;t generate coins</source>
-        <translation>Bitcoin oluşturmasını devre dışı bırak</translation>
+        <translation>Earthcoin oluşturmasını devre dışı bırak</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="54"/>
@@ -2204,9 +2204,9 @@ Adres: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="108"/>
         <source>
-SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+SSL options: (see the Earthcoin Wiki for SSL setup instructions)</source>
         <translation>
-SSL seçenekleri: (SSL kurulum bilgisi için Bitcoin vikisine bakınız)</translation>
+SSL seçenekleri: (SSL kurulum bilgisi için Earthcoin vikisine bakınız)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="111"/>
@@ -2240,8 +2240,8 @@ SSL seçenekleri: (SSL kurulum bilgisi için Bitcoin vikisine bakınız)</transl
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
-        <translation>%s veri dizininde kilit elde edilemedi.  Bitcoin muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Earthcoin is probably already running.</source>
+        <translation>%s veri dizininde kilit elde edilemedi.  Earthcoin muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
@@ -2296,11 +2296,11 @@ SSL seçenekleri: (SSL kurulum bilgisi için Bitcoin vikisine bakınız)</transl
     <message>
         <location filename="../bitcoinstrings.cpp" line="135"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir Bitcoin sürümüne ihtiyacı var</translation>
+        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir Earthcoin sürümüne ihtiyacı var</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
+        <source>Wallet needed to be rewritten: restart Earthcoin to complete</source>
         <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için Bitcoin&apos;i yeniden başlatınız</translation>
     </message>
     <message>
@@ -2400,8 +2400,8 @@ SSL seçenekleri: (SSL kurulum bilgisi için Bitcoin vikisine bakınız)</transl
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="28"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. Bitcoin muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. Earthcoin is probably already running.</source>
+        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. Earthcoin muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="71"/>
@@ -2513,8 +2513,8 @@ Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluştur
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="25"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz.  Saatiniz doğru değilse Bitcoin gerektiği gibi çalışamaz.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Earthcoin will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz.  Saatiniz doğru değilse Earthcoin gerektiği gibi çalışamaz.</translation>
     </message>
 </context>
 </TS>

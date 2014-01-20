@@ -39,7 +39,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Earthcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Detta är dina Bitcoin-adresser för att ta emot betalningar.  Du kan ge varje avsändare en egen adress så att du kan hålla reda på vem som betalar dig.</translation>
     </message>
     <message>
@@ -223,7 +223,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Earthcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your earthcoins from being stolen by malware infecting your computer.</source>
         <translation>Programmet kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
@@ -278,7 +278,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="73"/>
-        <source>Bitcoin Wallet</source>
+        <source>Earthcoin Wallet</source>
         <translation>Bitcoin-plånbok</translation>
     </message>
     <message>
@@ -413,7 +413,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Earthcoin address</source>
         <translation>Skicka mynt till en Bitcoin-adress</translation>
     </message>
     <message>
@@ -423,7 +423,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show or hide the Bitcoin window</source>
+        <source>Show or hide the Earthcoin window</source>
         <translation>Visa eller göm Bitcoin-fönstret</translation>
     </message>
     <message>
@@ -500,12 +500,12 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="343"/>
         <location filename="../bitcoingui.cpp" line="399"/>
-        <source>Bitcoin client</source>
+        <source>Earthcoin client</source>
         <translation>Bitcoin-klient</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="492"/>
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Earthcoin network</source>
         <translation><numerusform>%n aktiv anslutning till Bitcoin-nätverket</numerusform><numerusform>%n aktiva anslutningar till Bitcoin-nätverket</numerusform></translation>
     </message>
     <message>
@@ -613,8 +613,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="112"/>
-        <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ett allvarligt fel har uppstått. Bitcoin kan inte längre köras säkert och kommer att avslutas.</translation>
+        <source>A fatal error occured. Earthcoin can no longer continue safely and will quit.</source>
+        <translation>Ett allvarligt fel har uppstått. Earthcoin kan inte längre köras säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -664,7 +664,7 @@ Adress: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="285"/>
-        <source>Whether to show Bitcoin addresses in the transaction list</source>
+        <source>Whether to show Earthcoin addresses in the transaction list</source>
         <translation>Anger om Bitcoin-adresser skall visas i transaktionslistan</translation>
     </message>
     <message>
@@ -732,7 +732,7 @@ Adress: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Earthcoin address.</source>
         <translation>Den angivna adressen &quot;%1&quot; är inte en giltig Bitcoin-adress.</translation>
     </message>
     <message>
@@ -814,13 +814,13 @@ Adress: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="222"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Starta Bitcoin vid systemstart</translation>
+        <source>&amp;Start Earthcoin on system login</source>
+        <translation>&amp;Starta Earthcoin vid systemstart</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
-        <source>Automatically start Bitcoin after logging in to the system</source>
-        <translation>Starta Bitcoin automatiskt efter inloggning</translation>
+        <source>Automatically start Earthcoin after logging in to the system</source>
+        <translation>Starta Earthcoin automatiskt efter inloggning</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="226"/>
@@ -907,7 +907,7 @@ Adress: %4
     </message>
     <message>
         <location filename="../messagepage.cpp" line="30"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Earthcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Ange en Bitcoin-adress (t.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
@@ -953,7 +953,7 @@ Adress: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="348"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Earthcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Öppna automatiskt Bitcoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
@@ -1005,7 +1005,7 @@ Adress: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="204"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Earthcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Bitcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
@@ -1122,8 +1122,8 @@ Adress: %4
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Bitcoin debug window</source>
-        <translation>Bitcoin debug fönster</translation>
+        <source>Earthcoin debug window</source>
+        <translation>Earthcoin debug fönster</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="46"/>
@@ -1205,8 +1205,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="299"/>
-        <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
-        <translation>Öppna Bitcoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
+        <source>Open the Earthcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <translation>Öppna Earthcoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="302"/>
@@ -1230,8 +1230,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="212"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Välkommen till Bitcoin RPC-konsollen.</translation>
+        <source>Welcome to the Earthcoin RPC console.</source>
+        <translation>Välkommen till Earthcoin RPC-konsollen.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="213"/>
@@ -1414,7 +1414,7 @@ Adress: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Earthcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>Ange en Bitcoin-adress (t.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
@@ -1863,12 +1863,12 @@ Adress: %4
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="20"/>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
+        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Earthcoin address used to sign the message.</source>
         <translation>Skriv meddelandet och signaturen nedan (var noga med att kopiera rätt nyradstecken, mellanslag, tabbar och andra osynliga tecken) för att erhålla Bitcoin-adressen som användes för att signera meddelandet.</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="62"/>
-        <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
+        <source>Verify a message and obtain the Earthcoin address used to sign the message</source>
         <translation>Verifiera ett meddelande och erhåll Bitcoin-adressen som användes för att signera meddelandet</translation>
     </message>
     <message>
@@ -1898,7 +1898,7 @@ Adress: %4
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="28"/>
-        <source>Enter Bitcoin signature</source>
+        <source>Enter Earthcoin signature</source>
         <translation>Ange Bitcoin-signatur</translation>
     </message>
     <message>
@@ -1973,8 +1973,8 @@ Adress: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Bitcoin version</source>
-        <translation>Bitcoin version</translation>
+        <source>Earthcoin version</source>
+        <translation>Earthcoin version</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="44"/>
@@ -2204,7 +2204,7 @@ Adress: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="108"/>
         <source>
-SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+SSL options: (see the Earthcoin Wiki for SSL setup instructions)</source>
         <translation>
 SSL-inställningar: (se Bitcoin-wikin för instruktioner)</translation>
     </message>
@@ -2240,8 +2240,8 @@ SSL-inställningar: (se Bitcoin-wikin för instruktioner)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
-        <translation>Kan inte låsa data-mappen %s.  Bitcoin körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Earthcoin is probably already running.</source>
+        <translation>Kan inte låsa data-mappen %s.  Earthcoin körs förmodligen redan.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
@@ -2300,8 +2300,8 @@ SSL-inställningar: (se Bitcoin-wikin för instruktioner)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Plånboken behöver skrivas om: Starta om Bitcoin för att färdigställa</translation>
+        <source>Wallet needed to be rewritten: restart Earthcoin to complete</source>
+        <translation>Plånboken behöver skrivas om: Starta om Earthcoin för att färdigställa</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
@@ -2361,7 +2361,7 @@ SSL-inställningar: (se Bitcoin-wikin för instruktioner)</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="32"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds  </source>
-        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna bitcoins  </translation>
+        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna earthcoins  </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="35"/>
@@ -2400,8 +2400,8 @@ SSL-inställningar: (se Bitcoin-wikin för instruktioner)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="28"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Det går inte att binda till %s på den här datorn. Bitcoin är förmodligen redan igång.</translation>
+        <source>Unable to bind to %s on this computer. Earthcoin is probably already running.</source>
+        <translation>Det går inte att binda till %s på den här datorn. Earthcoin är förmodligen redan igång.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="71"/>
@@ -2513,8 +2513,8 @@ Om filen inte existerar, skapa den med filrättigheten endast läsbar för ägar
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="25"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Varning: Vänligen kolla så din dators datum och tid är korrekt.  Om din klocka går fel kommer Bitcoin inte fungera korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Earthcoin will not work properly.</source>
+        <translation>Varning: Vänligen kolla så din dators datum och tid är korrekt.  Om din klocka går fel kommer Earthcoin inte fungera korrekt.</translation>
     </message>
 </context>
 </TS>
