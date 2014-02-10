@@ -39,8 +39,8 @@ Ce produit comprend des logiciels développés par le projet OpenSSL pour être 
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Voici vos adresses Bitcoin qui vous permettent de recevoir des paiements.  Vous pouvez donner une adresse différente à chaque expéditeur afin de savoir qui vous paye.</translation>
+        <source>These are your Earthcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Voici vos adresses Earthcoin qui vous permettent de recevoir des paiements.  Vous pouvez donner une adresse différente à chaque expéditeur afin de savoir qui vous paye.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="36"/>
@@ -223,8 +223,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin va à présent se fermer pour terminer la procédure de cryptage. N&apos;oubliez pas que le chiffrement de votre porte-monnaie ne peut pas fournir une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+        <source>Earthcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your earthcoins from being stolen by malware infecting your computer.</source>
+        <translation>Earthcoin va à présent se fermer pour terminer la procédure de cryptage. N&apos;oubliez pas que le chiffrement de votre porte-monnaie ne peut pas fournir une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="207"/>
@@ -278,7 +278,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="73"/>
-        <source>Bitcoin Wallet</source>
+        <source>Earthcoin Wallet</source>
         <translation>Porte-monnaie Bitcoin</translation>
     </message>
     <message>
@@ -413,7 +413,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Earthcoin address</source>
         <translation>Envoyer des pièces à une adresse Bitcoin</translation>
     </message>
     <message>
@@ -423,7 +423,7 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show or hide the Bitcoin window</source>
+        <source>Show or hide the Earthcoin window</source>
         <translation>Afficher ou cacher la fenêtre Bitcoin</translation>
     </message>
     <message>
@@ -500,12 +500,12 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="343"/>
         <location filename="../bitcoingui.cpp" line="399"/>
-        <source>Bitcoin client</source>
+        <source>Earthcoin client</source>
         <translation>Client Bitcoin</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="492"/>
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Earthcoin network</source>
         <translation><numerusform>%n connexion active avec le réseau Bitcoin</numerusform><numerusform>%n connexions actives avec le réseau Bitcoin</numerusform></translation>
     </message>
     <message>
@@ -613,8 +613,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="112"/>
-        <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale est survenue. Bitcoin ne peut plus continuer à fonctionner de façon sûre et va s&apos;arrêter.</translation>
+        <source>A fatal error occured. Earthcoin can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale est survenue. Earthcoin ne peut plus continuer à fonctionner de façon sûre et va s&apos;arrêter.</translation>
     </message>
 </context>
 <context>
@@ -664,8 +664,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="285"/>
-        <source>Whether to show Bitcoin addresses in the transaction list</source>
-        <translation>Détermine si les adresses Bitcoin seront affichées sur la liste des transactions</translation>
+        <source>Whether to show Earthcoin addresses in the transaction list</source>
+        <translation>Détermine si les adresses Earthcoin seront affichées sur la liste des transactions</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
@@ -732,8 +732,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>L&apos;adresse fournie « %1 » n&apos;est pas une adresse Bitcoin valide.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Earthcoin address.</source>
+        <translation>L&apos;adresse fournie « %1 » n&apos;est pas une adresse Earthcoin valide.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -814,13 +814,13 @@ Adresse : %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="222"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Démarrer Bitcoin lors de l&apos;ouverture d&apos;une session</translation>
+        <source>&amp;Start Earthcoin on system login</source>
+        <translation>&amp;Démarrer Earthcoin lors de l&apos;ouverture d&apos;une session</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
-        <source>Automatically start Bitcoin after logging in to the system</source>
-        <translation>Démarrer Bitcoin automatiquement après avoir ouvert une session sur l&apos;ordinateur</translation>
+        <source>Automatically start Earthcoin after logging in to the system</source>
+        <translation>Démarrer Earthcoin automatiquement après avoir ouvert une session sur l&apos;ordinateur</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="226"/>
@@ -907,8 +907,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../messagepage.cpp" line="30"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Entrez une adresse Bitcoin (par ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Earthcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Entrez une adresse Earthcoin (par ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="83"/>
@@ -953,8 +953,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="348"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client Bitcoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l&apos;UPnP et si la fonctionnalité est activée.</translation>
+        <source>Automatically open the Earthcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client Earthcoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l&apos;UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="351"/>
@@ -964,7 +964,7 @@ Adresse : %4
     <message>
         <location filename="../optionsdialog.cpp" line="352"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Connexion au réseau Bitcoin à travers un proxy SOCKS4 (par ex. lors d&apos;une connexion via Tor)</translation>
+        <translation>Connexion au réseau Earthcoin à travers un proxy SOCKS4 (par ex. lors d&apos;une connexion via Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="357"/>
@@ -1005,8 +1005,8 @@ Adresse : %4
     <message>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="204"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>L&apos;information affichée peut être obsolète. Votre porte-monnaie est automatiquement synchronisé avec le réseau Bitcoin lorsque la connexion s&apos;établit, mais ce processus n&apos;est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Earthcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>L&apos;information affichée peut être obsolète. Votre porte-monnaie est automatiquement synchronisé avec le réseau Earthcoin lorsque la connexion s&apos;établit, mais ce processus n&apos;est pas encore terminé.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="89"/>
@@ -1122,7 +1122,7 @@ Adresse : %4
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Bitcoin debug window</source>
+        <source>Earthcoin debug window</source>
         <translation>Fenêtre de débogage de Bitcoin</translation>
     </message>
     <message>
@@ -1205,8 +1205,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="299"/>
-        <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
-        <translation>Ouvrir le journal de débogage de Bitcoin depuis le répertoire courant. Cela peut prendre quelques secondes pour les journaux de grande taille.</translation>
+        <source>Open the Earthcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <translation>Ouvrir le journal de débogage de Earthcoin depuis le répertoire courant. Cela peut prendre quelques secondes pour les journaux de grande taille.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="302"/>
@@ -1230,7 +1230,7 @@ Adresse : %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="212"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
+        <source>Welcome to the Earthcoin RPC console.</source>
         <translation>Bienvenue sur la console RPC de Bitcoin.</translation>
     </message>
     <message>
@@ -1414,8 +1414,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Entrez une adresse Bitcoin (par ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Earthcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Entrez une adresse Earthcoin (par ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1863,13 +1863,13 @@ Adresse : %4
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="20"/>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
-        <translation>Entrez le message et la signature ci-dessous (faites attention à copier correctement les nouvelles lignes, les espacement, tabulations et autre caractères invisibles) pour obtenir l&apos;adresse Bitcoin utilisée pour signer le message.</translation>
+        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Earthcoin address used to sign the message.</source>
+        <translation>Entrez le message et la signature ci-dessous (faites attention à copier correctement les nouvelles lignes, les espacement, tabulations et autre caractères invisibles) pour obtenir l&apos;adresse Earthcoin utilisée pour signer le message.</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="62"/>
-        <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
-        <translation>Vérifier un message et obtenir l&apos;adresse Bitcoin utilisée pour le signer</translation>
+        <source>Verify a message and obtain the Earthcoin address used to sign the message</source>
+        <translation>Vérifier un message et obtenir l&apos;adresse Earthcoin utilisée pour le signer</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="65"/>
@@ -1898,7 +1898,7 @@ Adresse : %4
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="28"/>
-        <source>Enter Bitcoin signature</source>
+        <source>Enter Earthcoin signature</source>
         <translation>Entrer une signature Bitcoin</translation>
     </message>
     <message>
@@ -1973,7 +1973,7 @@ Adresse : %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Bitcoin version</source>
+        <source>Earthcoin version</source>
         <translation>Version de Bitcoin</translation>
     </message>
     <message>
@@ -2204,9 +2204,9 @@ Adresse : %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="108"/>
         <source>
-SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+SSL options: (see the Earthcoin Wiki for SSL setup instructions)</source>
         <translation>
-Options SSL : (cf. le wiki Bitcoin pour les réglages SSL)</translation>
+Options SSL : (cf. le wiki Earthcoin pour les réglages SSL)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="111"/>
@@ -2240,8 +2240,8 @@ Options SSL : (cf. le wiki Bitcoin pour les réglages SSL)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
-        <translation>Impossible d&apos;obtenir un verrou sur le répertoire de données %s.  Bitcoin fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Earthcoin is probably already running.</source>
+        <translation>Impossible d&apos;obtenir un verrou sur le répertoire de données %s.  Earthcoin fonctionne probablement déjà.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
@@ -2300,8 +2300,8 @@ Options SSL : (cf. le wiki Bitcoin pour les réglages SSL)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Le porte-monnaie nécessitait une réécriture. Veuillez redémarrer Bitcoin pour terminer l&apos;opération</translation>
+        <source>Wallet needed to be rewritten: restart Earthcoin to complete</source>
+        <translation>Le porte-monnaie nécessitait une réécriture. Veuillez redémarrer Earthcoin pour terminer l&apos;opération</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
@@ -2400,8 +2400,8 @@ Options SSL : (cf. le wiki Bitcoin pour les réglages SSL)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="28"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. Bitcoin fonctionne probablement déjà.</translation>
+        <source>Unable to bind to %s on this computer. Earthcoin is probably already running.</source>
+        <translation>Impossible de se lier à %s sur cet ordinateur. Earthcoin fonctionne probablement déjà.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="71"/>
@@ -2513,8 +2513,8 @@ Si le fichier n&apos;existe pas, créez-le avec les droits de lecture seule acco
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="25"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Attention : veuillez vérifier que l&apos;heure et la date de votre ordinateur sont correctes.  Si votre horloge n&apos;est pas à l&apos;heure, Bitcoin ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Earthcoin will not work properly.</source>
+        <translation>Attention : veuillez vérifier que l&apos;heure et la date de votre ordinateur sont correctes.  Si votre horloge n&apos;est pas à l&apos;heure, Earthcoin ne fonctionnera pas correctement.</translation>
     </message>
 </context>
 </TS>

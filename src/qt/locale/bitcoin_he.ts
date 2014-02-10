@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="he">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="he" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
         <source>About Bitcoin</source>
-        <translation type="unfinished">אודות Earthcoin</translation>
+        <translation>אודות ביטקוין</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
         <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation type="unfinished">גרסת &lt;b&gt;Earthcoin&lt;/b&gt;</translation>
+        <translation>גרסת &lt;b&gt;ביטקוין&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
@@ -41,8 +39,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="unfinished">אלה כתובות Earthcoin שלך עבור קבלת תשלומים.  אתה עשוי לרצות לתת כתובת שונה לכל שולח כדי שתוכל לעקוב אחר מי משלם לך.</translation>
+        <source>These are your Earthcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>אלה כתובות הביטקוין שלך עבור קבלת תשלומים.  אתה עשוי לרצות לתת כתובת שונה לכל שולח כדי שתוכל לעקוב אחר מי משלם לך.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="36"/>
@@ -62,12 +60,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="66"/>
         <source>&amp;New Address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="80"/>
         <source>&amp;Copy Address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="91"/>
@@ -97,12 +95,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addressbookpage.cpp" line="63"/>
         <source>Copy &amp;Label</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="65"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="292"/>
@@ -148,7 +146,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="26"/>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="47"/>
@@ -225,8 +223,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">הארנק ייסגר עכשיו כדי להשלים את תהליך ההצפנה. זכור שהצפנת הארנק שלך אינו יכול להגן באופן מלא על המטבעות שלך מתוכנות זדוניות המושתלות על המחשב.</translation>
+        <source>Earthcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your earthcoins from being stolen by malware infecting your computer.</source>
+        <translation>ביטקוין ייסגר עכשיו כדי להשלים את תהליך ההצפנה. זכור שהצפנת הארנק שלך אינו יכול להגן באופן מלא על הביטקוינים שלך מתוכנות זדוניות המושתלות על המחשב.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="207"/>
@@ -280,18 +278,18 @@ Are you sure you wish to encrypt your wallet?</source>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="73"/>
-        <source>Bitcoin Wallet</source>
-        <translation type="unfinished">ארנק Earthcoin</translation>
+        <source>Earthcoin Wallet</source>
+        <translation>ארנק ביטקוין</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="215"/>
         <source>Sign &amp;message...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="248"/>
         <source>Show/Hide &amp;Bitcoin</source>
-        <translation type="unfinished">הצג/הסתר את &amp;Earthcoin</translation>
+        <translation>הצג/הסתר את &amp;ביטקוין</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="515"/>
@@ -366,7 +364,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
         <source>Show information about Bitcoin</source>
-        <translation type="unfinished">הצג מידע על Earthcoin</translation>
+        <translation>הצג מידע על ביטקוין</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="242"/>
@@ -386,25 +384,22 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="252"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="255"/>
         <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="257"/>
         <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="517"/>
         <source>~%n block(s) remaining</source>
-        <translation>
-            <numerusform>בלוק אחד נותר</numerusform>
-            <numerusform>~%n בלוקים נותרו</numerusform>
-        </translation>
+        <translation><numerusform>בלוק אחד נותר</numerusform><numerusform>~%n בלוקים נותרו</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="528"/>
@@ -418,18 +413,18 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished"></translation>
+        <source>Send coins to a Earthcoin address</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="246"/>
         <source>Modify configuration options for Bitcoin</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show or hide the Bitcoin window</source>
-        <translation type="unfinished">הצג או הסתר את חלון Earthcoin.</translation>
+        <source>Show or hide the Earthcoin window</source>
+        <translation>הצג או הסתר את חלון ביטקוין.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="251"/>
@@ -454,22 +449,22 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="259"/>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="260"/>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="261"/>
         <source>&amp;Verify message...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="262"/>
         <source>Verify a message signature</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="286"/>
@@ -505,16 +500,13 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="343"/>
         <location filename="../bitcoingui.cpp" line="399"/>
-        <source>Bitcoin client</source>
-        <translation type="unfinished">תוכנת Earthcoin</translation>
+        <source>Earthcoin client</source>
+        <translation>תוכנת ביטקוין</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="492"/>
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation type="unfinished">
-            <numerusform>חיבור פעיל אחד לרשת Earthcoin</numerusform>
-            <numerusform>%n חיבורים פעילים לרשת הביטקוין</numerusform>
-        </translation>
+        <source>%n active connection(s) to Earthcoin network</source>
+        <translation><numerusform>חיבור פעיל אחד לרשת הביטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת הביטקוין</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="540"/>
@@ -524,34 +516,22 @@ Are you sure you wish to encrypt your wallet?</source>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="555"/>
         <source>%n second(s) ago</source>
-        <translation>
-            <numerusform>לפני שניה</numerusform>
-            <numerusform>לפני %n שניות</numerusform>
-        </translation>
+        <translation><numerusform>לפני שניה</numerusform><numerusform>לפני %n שניות</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="559"/>
         <source>%n minute(s) ago</source>
-        <translation>
-            <numerusform>לפני דקה</numerusform>
-            <numerusform>לפני %n דקות</numerusform>
-        </translation>
+        <translation><numerusform>לפני דקה</numerusform><numerusform>לפני %n דקות</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="563"/>
         <source>%n hour(s) ago</source>
-        <translation>
-            <numerusform>לפני שעה</numerusform>
-            <numerusform>לפני %n שעות</numerusform>
-        </translation>
+        <translation><numerusform>לפני שעה</numerusform><numerusform>לפני %n שעות</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="567"/>
         <source>%n day(s) ago</source>
-        <translation>
-            <numerusform>לפני יום</numerusform>
-            <numerusform>לפני %n ימים</numerusform>
-        </translation>
+        <translation><numerusform>לפני יום</numerusform><numerusform>לפני %n ימים</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="573"/>
@@ -576,7 +556,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="654"/>
         <source>Confirm transaction fee</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="681"/>
@@ -632,8 +612,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="112"/>
-        <source>A fatal error occured. Bitcoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"></translation>
+        <source>A fatal error occured. Earthcoin can no longer continue safely and will quit.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -641,7 +621,7 @@ Address: %4
     <message>
         <location filename="../clientmodel.cpp" line="84"/>
         <source>Network Alert</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -654,22 +634,22 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="257"/>
         <source>default</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="263"/>
         <source>The user interface language can be set here. This setting will only take effect after restarting Bitcoin.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="252"/>
         <source>User Interface &amp;Language:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="273"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="277"/>
@@ -679,22 +659,22 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="284"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="285"/>
-        <source>Whether to show Bitcoin addresses in the transaction list</source>
-        <translation type="unfinished"></translation>
+        <source>Whether to show Earthcoin addresses in the transaction list</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
         <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -751,8 +731,8 @@ Address: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation type="unfinished"></translation>
+        <source>The entered address &quot;%1&quot; is not a valid Earthcoin address.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -771,12 +751,12 @@ Address: %4
         <location filename="../bitcoin.cpp" line="133"/>
         <location filename="../bitcoin.cpp" line="143"/>
         <source>Bitcoin-Qt</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="133"/>
         <source>version</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="135"/>
@@ -786,12 +766,12 @@ Address: %4
     <message>
         <location filename="../bitcoin.cpp" line="136"/>
         <source>options</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="138"/>
         <source>UI options</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="139"/>
@@ -814,7 +794,7 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="227"/>
         <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="212"/>
@@ -833,18 +813,18 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="222"/>
-        <source>&amp;Start Bitcoin on system login</source>
-        <translation type="unfinished"></translation>
+        <source>&amp;Start Earthcoin on system login</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
-        <source>Automatically start Bitcoin after logging in to the system</source>
-        <translation type="unfinished"></translation>
+        <source>Automatically start Earthcoin after logging in to the system</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="226"/>
         <source>&amp;Detach databases at shutdown</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -852,7 +832,7 @@ Address: %4
     <message>
         <location filename="../forms/messagepage.ui" line="14"/>
         <source>Sign Message</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/messagepage.ui" line="20"/>
@@ -892,22 +872,22 @@ Address: %4
     <message>
         <location filename="../forms/messagepage.ui" line="128"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/messagepage.ui" line="131"/>
         <source>&amp;Copy Signature</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/messagepage.ui" line="142"/>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/messagepage.ui" line="145"/>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="31"/>
@@ -926,7 +906,7 @@ Address: %4
     </message>
     <message>
         <location filename="../messagepage.cpp" line="30"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Earthcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>הכנס כתובת ביטקוין (למשל 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
@@ -945,7 +925,7 @@ Address: %4
     <message>
         <location filename="../messagepage.cpp" line="90"/>
         <source>%1 does not refer to a key.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="105"/>
@@ -963,7 +943,7 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="345"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="347"/>
@@ -972,8 +952,8 @@ Address: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="348"/>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">פתח את פורט Earthcoin בנתב באופן אוטומטי. עובד רק אם UPnP מאופשר ונתמך ע&quot;י הנתב.</translation>
+        <source>Automatically open the Earthcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>פתח את פורט ביטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מאופשר ונתמך ע&quot;י הנתב.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="351"/>
@@ -983,17 +963,17 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="352"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation type="unfinished">התחבר לרשת ה Earthcoin דרך פרוקסי SOCKS4 (למשל, בעת חיבור דרך Tor)</translation>
+        <translation>התחבר לרשת הביטקוין דרך פרוקסי SOCKS4 (למשל, בעת חיבור דרך Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="357"/>
         <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="366"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="363"/>
@@ -1024,8 +1004,8 @@ Address: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="204"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished"></translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Earthcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="89"/>
@@ -1045,7 +1025,7 @@ Address: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="40"/>
         <source>Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="197"/>
@@ -1071,7 +1051,7 @@ Address: %4
         <location filename="../overviewpage.cpp" line="110"/>
         <location filename="../overviewpage.cpp" line="111"/>
         <source>out of sync</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1079,7 +1059,7 @@ Address: %4
     <message>
         <location filename="../forms/qrcodedialog.ui" line="14"/>
         <source>QR Code Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="32"/>
@@ -1099,7 +1079,7 @@ Address: %4
     <message>
         <location filename="../forms/qrcodedialog.ui" line="105"/>
         <source>BTC</source>
-        <translation type="unfinished">Earthcoin</translation>
+        <translation>ביטקוין</translation>
     </message>
     <message>
         <location filename="../forms/qrcodedialog.ui" line="121"/>
@@ -1119,7 +1099,7 @@ Address: %4
     <message>
         <location filename="../qrcodedialog.cpp" line="45"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="63"/>
@@ -1129,7 +1109,7 @@ Address: %4
     <message>
         <location filename="../qrcodedialog.cpp" line="120"/>
         <source>Save QR Code</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="120"/>
@@ -1141,13 +1121,13 @@ Address: %4
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Bitcoin debug window</source>
-        <translation type="unfinished"></translation>
+        <source>Earthcoin debug window</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="46"/>
         <source>Client name</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="56"/>
@@ -1160,107 +1140,107 @@ Address: %4
         <location filename="../forms/rpcconsole.ui" line="260"/>
         <location filename="../rpcconsole.cpp" line="245"/>
         <source>N/A</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="69"/>
         <source>Client version</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="24"/>
         <source>&amp;Information</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="39"/>
         <source>Client</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="115"/>
         <source>Startup time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="144"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="151"/>
         <source>Number of connections</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="174"/>
         <source>On testnet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="197"/>
         <source>Block chain</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="204"/>
         <source>Current number of blocks</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="227"/>
         <source>Estimated total blocks</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="250"/>
         <source>Last block time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="292"/>
         <source>Debug logfile</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="299"/>
-        <source>Open the Bitcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
-        <translation type="unfinished"></translation>
+        <source>Open the Earthcoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="302"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="323"/>
         <source>&amp;Console</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="92"/>
         <source>Build date</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="372"/>
         <source>Clear console</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="212"/>
-        <source>Welcome to the Bitcoin RPC console.</source>
-        <translation type="unfinished"></translation>
+        <source>Welcome to the Earthcoin RPC console.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="213"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="214"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1285,7 +1265,7 @@ Address: %4
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="67"/>
         <source>&amp;Add Recipient</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="84"/>
@@ -1295,7 +1275,7 @@ Address: %4
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="87"/>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="106"/>
@@ -1305,7 +1285,7 @@ Address: %4
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="113"/>
         <source>123.456 BTC</source>
-        <translation type="unfinished">123.456 Earthcoin</translation>
+        <translation>123.456 ביטקוין</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="144"/>
@@ -1350,27 +1330,27 @@ Address: %4
     <message>
         <location filename="../sendcoinsdialog.cpp" line="133"/>
         <source>The amount exceeds your balance.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="138"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="144"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="149"/>
         <source>Error: Transaction creation failed.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="154"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1404,7 +1384,7 @@ Address: %4
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="93"/>
         <source>The address to send the payment to  (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="unfinished">הכתובת אליה יישלח התשלום  (למשל eeS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>הכתובת אליה יישלח התשלום  (למשל 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="103"/>
@@ -1433,8 +1413,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="unfinished">הכנס כתובת Earthcoin (למשל eeS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Earthcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>הכנס כתובת ביטקוין (למשל 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1616,10 +1596,7 @@ Address: %4
     <message numerus="yes">
         <location filename="../transactiontablemodel.cpp" line="281"/>
         <source>Open for %n block(s)</source>
-        <translation>
-            <numerusform>פתוח למשך בלוק אחד</numerusform>
-            <numerusform>פתוח למשך %n בלוקים</numerusform>
-        </translation>
+        <translation><numerusform>פתוח למשך בלוק אחד</numerusform><numerusform>פתוח למשך %n בלוקים</numerusform></translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="284"/>
@@ -1644,10 +1621,7 @@ Address: %4
     <message numerus="yes">
         <location filename="../transactiontablemodel.cpp" line="301"/>
         <source>Mined balance will be available in %n more blocks</source>
-        <translation>
-            <numerusform>יתרה שנכרתה תהיה זמינה עוד בלוק אחד</numerusform>
-            <numerusform>יתרה שנכרתה תהיה זמינה עוד %n בלוקים</numerusform>
-        </translation>
+        <translation><numerusform>יתרה שנכרתה תהיה זמינה עוד בלוק אחד</numerusform><numerusform>יתרה שנכרתה תהיה זמינה עוד %n בלוקים</numerusform></translation>
     </message>
     <message>
         <location filename="../transactiontablemodel.cpp" line="307"/>
@@ -1811,7 +1785,7 @@ Address: %4
     <message>
         <location filename="../transactionview.cpp" line="130"/>
         <source>Show transaction details</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../transactionview.cpp" line="270"/>
@@ -1884,22 +1858,22 @@ Address: %4
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="14"/>
         <source>Verify Signed Message</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="20"/>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Bitcoin address used to sign the message.</source>
-        <translation type="unfinished"></translation>
+        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Earthcoin address used to sign the message.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="62"/>
-        <source>Verify a message and obtain the Bitcoin address used to sign the message</source>
-        <translation type="unfinished"></translation>
+        <source>Verify a message and obtain the Earthcoin address used to sign the message</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="65"/>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="79"/>
@@ -1909,53 +1883,53 @@ Address: %4
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="82"/>
         <source>&amp;Copy Address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="93"/>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="96"/>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="28"/>
-        <source>Enter Bitcoin signature</source>
-        <translation type="unfinished"></translation>
+        <source>Enter Earthcoin signature</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="29"/>
         <source>Click &quot;Verify Message&quot; to obtain address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="55"/>
         <location filename="../verifymessagedialog.cpp" line="62"/>
         <source>Invalid Signature</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="55"/>
         <source>The signature could not be decoded. Please check the signature and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="62"/>
         <source>The signature did not match the message digest. Please check the signature and try again.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="72"/>
         <source>Address not found in address book.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="72"/>
         <source>Address found in address book: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1971,7 +1945,7 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="313"/>
         <source>Window</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="316"/>
@@ -1986,7 +1960,7 @@ Address: %4
     <message>
         <location filename="../optionsdialog.cpp" line="320"/>
         <source>M&amp;inimize on close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="321"/>
@@ -1998,8 +1972,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Bitcoin version</source>
-        <translation type="unfinished">גרסת Earthcoin</translation>
+        <source>Earthcoin version</source>
+        <translation>גרסת ביטקוין</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="44"/>
@@ -2009,7 +1983,7 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="45"/>
         <source>Send command to -server or bitcoind</source>
-        <translation type="unfinished">שלח פקודה ל -server או earthcoind</translation>
+        <translation>שלח פקודה ל -server או bitcoind</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="46"/>
@@ -2029,12 +2003,12 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="50"/>
         <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation type="unfinished">ציין קובץ הגדרות (ברירת מחדל: earthcoin.conf)</translation>
+        <translation>ציין קובץ הגדרות (ברירת מחדל: bitcoin.conf)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="51"/>
         <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation type="unfinished">ציין קובץ pid (ברירת מחדל: earthcoind.pid)</translation>
+        <translation>ציין קובץ pid (ברירת מחדל: bitcoind.pid)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="52"/>
@@ -2084,27 +2058,27 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="67"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="68"/>
         <source>Specify your own public address</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="69"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4 or IPv6)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="70"/>
         <source>Try to discover public IP address (default: 1)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="73"/>
         <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="75"/>
@@ -2129,7 +2103,7 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="83"/>
         <source>Detach block and address databases. Increases shutdown time (default: 0)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="86"/>
@@ -2224,12 +2198,12 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="106"/>
         <source>Imports blocks from external blk000?.dat file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="108"/>
         <source>
-SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+SSL options: (see the Earthcoin Wiki for SSL setup instructions)</source>
         <translation>אפשרויות SSL: (ראה את הויקי של ביטקוין עבור הוראות להתקנת SSL)</translation>
     </message>
     <message>
@@ -2255,7 +2229,7 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="145"/>
         <source>Warning: Disk space is low</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="107"/>
@@ -2264,43 +2238,43 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Cannot obtain a lock on data directory %s.  Bitcoin is probably already running.</source>
-        <translation type="unfinished">אינו מסוגל לנעול את תיקיית הנתונים %s.  כנראה שהארנק כבר רץ.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Earthcoin is probably already running.</source>
+        <translation>אינו מסוגל לנעול את תיקיית הנתונים %s.  כנראה שביטקוין כבר רץ.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
         <source>Bitcoin</source>
-        <translation type="unfinished">Earthcoin</translation>
+        <translation>ביטקוין</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="30"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="58"/>
         <source>Connect through socks proxy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="59"/>
         <source>Select the version of socks proxy to use (4 or 5, 5 is default)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="60"/>
         <source>Do not use proxy for connections to network &lt;net&gt; (IPv4 or IPv6)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="61"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="62"/>
         <source>Pass DNS requests to (SOCKS5) proxy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="142"/>
@@ -2320,12 +2294,12 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="135"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation type="unfinished">שגיאה בטעינת הקובץ wallet.dat: הארנק דורש גרסה חדשה יותר של Earthcoin</translation>
+        <translation>שגיאה בטעינת הקובץ wallet.dat: הארנק דורש גרסה חדשה יותר של ביטקוין</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation type="unfinished">יש לכתוב מחדש את הארנק: אתחל את הארנק לסיום</translation>
+        <source>Wallet needed to be rewritten: restart Earthcoin to complete</source>
+        <translation>יש לכתוב מחדש את הארנק: אתחל את ביטקוין לסיום</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
@@ -2335,47 +2309,47 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="124"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="125"/>
         <source>Unknown network specified in -noproxy: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="127"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="126"/>
         <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="128"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="129"/>
         <source>Not listening on any port</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="130"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="117"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="143"/>
         <source>Error: could not start node</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="31"/>
@@ -2424,8 +2398,8 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="28"/>
-        <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation type="unfinished"></translation>
+        <source>Unable to bind to %s on this computer. Earthcoin is probably already running.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="71"/>
@@ -2460,7 +2434,7 @@ SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
     <message>
         <location filename="../bitcoinstrings.cpp" line="118"/>
         <source>Warning: -paytxfee is set very high. This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="133"/>
@@ -2536,8 +2510,8 @@ If the file does not exist, create it with owner-readable-only file permissions.
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="25"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Bitcoin will not work properly.</source>
-        <translation type="unfinished">אזהרה: אנא בדוק שהתאריך והשעה של המחשב הזה נכונים.  אם השעון שלך שגוי הארנק לא יפעל כהלכה.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Earthcoin will not work properly.</source>
+        <translation>אזהרה: אנא בדוק שהתאריך והשעה של המחשב הזה נכונים.  אם השעון שלך שגוי ביטקוין לא יפעל כהלכה.</translation>
     </message>
 </context>
 </TS>
