@@ -1432,7 +1432,7 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex)
 	}
 
     if (vtx[0].GetValueOut() > GetBlockValue(pindex->nHeight, nFees, prevHash))
-        return false;
+       return DoS(100, error("ConnectBlock() : coinbase pays too much (actual=%"PRI64d" vs limit=%"PRI64d")", vtx[0].GetValueOut(), GetBlockValue(pindex->nHeight, nFees)));
 
     // Update block index on disk without changing it in memory.
     // The memory index structure will be changed after the db commits.
@@ -2013,7 +2013,7 @@ bool LoadBlockIndex(bool fAllowNew)
             return false;
 
         // Genesis block
-        const char* pszTimestamp = " December 19, 2013 — Arrest, strip-search of Indian diplomat in New York triggers uproar.";
+        const char* pszTimestamp = " December 19, 2013 ï¿½ Arrest, strip-search of Indian diplomat in New York triggers uproar.";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
