@@ -37,7 +37,7 @@ TransactionView::TransactionView(QWidget *parent) :
     setContentsMargins(0,0,0,0);
 
     QHBoxLayout *hlayout = new QHBoxLayout();
-    hlayout->setContentsMargins(0,0,0,0);
+    hlayout->setContentsMargins(0,0,0,0); 
 #ifdef Q_WS_MAC
     hlayout->setSpacing(5);
     hlayout->addSpacing(26);
@@ -133,14 +133,14 @@ TransactionView::TransactionView(QWidget *parent) :
     contextMenu->addAction(copyAddressAction);
     contextMenu->addAction(copyLabelAction);
     contextMenu->addAction(copyAmountAction);
-    contextMenu->addAction(editLabelAction);
+	contextMenu->addAction(editLabelAction);
     contextMenu->addAction(showDetailsAction);
 
     // Connect actions
     connect(dateWidget, SIGNAL(activated(int)), this, SLOT(chooseDate(int)));
     connect(typeWidget, SIGNAL(activated(int)), this, SLOT(chooseType(int)));
     connect(addressWidget, SIGNAL(textChanged(QString)), this, SLOT(changedPrefix(QString)));
-    connect(amountWidget, SIGNAL(textChanged(QString)), this, SLOT(changedAmount(QString)));
+	connect(amountWidget, SIGNAL(textChanged(QString)), this, SLOT(changedAmount(QString)));
 
     connect(view, SIGNAL(doubleClicked(QModelIndex)), this, SIGNAL(doubleClicked(QModelIndex)));
     connect(view, SIGNAL(customContextMenuRequested(QPoint)), this, SLOT(contextualMenu(QPoint)));
@@ -179,8 +179,10 @@ void TransactionView::setModel(WalletModel *model)
                 TransactionTableModel::Date, 120);
         transactionView->horizontalHeader()->resizeSection(
                 TransactionTableModel::Type, 120);
+        transactionView->horizontalHeader()->resizeSection(
+                TransactionTableModel::ToAddress, 300);
         transactionView->horizontalHeader()->setResizeMode(
-                TransactionTableModel::ToAddress, QHeaderView::Stretch);
+                TransactionTableModel::TxComment, QHeaderView::Stretch);
         transactionView->horizontalHeader()->resizeSection(
                 TransactionTableModel::Amount, 100);
     }
