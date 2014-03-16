@@ -2013,7 +2013,7 @@ bool LoadBlockIndex(bool fAllowNew)
             return false;
 
         // Genesis block
-        const char* pszTimestamp = " December 19, 2013 — Arrest, strip-search of Indian diplomat in New York triggers uproar.";
+        const char* pszTimestamp = " December 19, 2013 \x97 Arrest, strip-search of Indian diplomat in New York triggers uproar.";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
