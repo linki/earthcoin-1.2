@@ -1,7 +1,13 @@
+# Compilation and Qt preprocessor part
+*.qm
 Makefile
-build
 earthcoin-qt
-qrc_bitcoin.cpp
+EarthCoin-Qt.app
+
+# Resources cpp
+qrc_*.cpp
+
+# Other
+build
 src/obj
 src/earthcoind
-*.qm
