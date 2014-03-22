@@ -35,7 +35,7 @@ static const unsigned int MAX_TX_COMMENT_LEN = 140; // Florincoin: 128 bytes + l
 
 static const int64 MIN_TX_FEE = 1000000;
 static const int64 MIN_RELAY_TX_FEE = MIN_TX_FEE;
-static const int64 MAX_MONEY = 13500000000 * COIN; // EarthCoin: maximum of 13.5 billion coins
+static const int64 MAX_MONEY = 13500000000LL * COIN; // EarthCoin: maximum of 13.5 billion coins
 static const int64 TOTAL_GENERATION = MAX_MONEY;
 static const double SERVICE_TAX_PERCENTAGE = 0.02;
 inline bool MoneyRange(int64 nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
