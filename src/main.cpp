@@ -1993,7 +1993,7 @@ bool LoadBlockIndex(bool fAllowNew)
         pchMessageStart[1] = 0xc2;
         pchMessageStart[2] = 0xb6;
         pchMessageStart[3] = 0xf1;
-        hashGenesisBlock = uint256("0xc0b6377baef1853b2c8176fd7926b13a04cf21438711e828430b7632bb0f70c8");
+        hashGenesisBlock = uint256("0xed0457370ddafea96096d4c9f5187efceece8d8ab5558194c7eebb06943c8c8c");
     }
 
     //
@@ -2032,7 +2032,7 @@ bool LoadBlockIndex(bool fAllowNew)
 		if (fTestNet)
         {
             block.nTime    = 1386000000;
-            block.nNonce   = 0;
+            block.nNonce   = 681588;
         }
 
         //// debug print
