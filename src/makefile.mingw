@@ -7,12 +7,12 @@ USE_UPNP:=0
 INCLUDEPATHS= \
  -I"/D:\boost_1_54_0" \
  -I"/D:\db-4.8.30.NC/build_unix" \
- -I"/D:\openssl-1.0.1e/include" 
+ -I"/D:\openssl-1.0.1g/include"
 
 LIBPATHS= \
  -L"/D:\boost_1_54_0/stage/lib" \
  -L"/D:\db-4.8.30.NC/build_unix" \
- -L"/D:\openssl-1.0.1e" 
+ -L"/D:\openssl-1.0.1g"
 
 LIBS= \
  -l boost_system-mgw45-mt-d-1_54 \
