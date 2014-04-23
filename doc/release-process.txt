@@ -37,7 +37,7 @@
    ./bin/gbuild ../litecoin/contrib/gitian-descriptors/qt-win32.yml
    cp build/out/qt-win32-4.7.4-gitian.zip inputs/
    ./bin/gbuild ../litecoin/contrib/gitian-descriptors/deps-win32.yml
-   cp build/out/litecoin-deps-0.0.3.zip inputs/
+   cp build/out/bitcoin-deps-0.0.4.zip inputs/
 
   * Build litecoind and litecoin-qt on Linux32, Linux64, and Win32:
    ./bin/gbuild --commit litecoin=v${VERSION} ../litecoin/contrib/gitian-descriptors/gitian.yml
