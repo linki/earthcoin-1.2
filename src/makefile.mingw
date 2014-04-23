@@ -5,20 +5,20 @@
 USE_UPNP:=0
 
 INCLUDEPATHS= \
- -I"/D:\boost_1_54_0" \
+ -I"/D:\boost_1_49_0" \
  -I"/D:\db-4.8.30.NC/build_unix" \
  -I"/D:\openssl-1.0.1g/include"
 
 LIBPATHS= \
- -L"/D:\boost_1_54_0/stage/lib" \
+ -L"/D:\boost_1_49_0/stage/lib" \
  -L"/D:\db-4.8.30.NC/build_unix" \
  -L"/D:\openssl-1.0.1g"
 
 LIBS= \
- -l boost_system-mgw45-mt-d-1_54 \
- -l boost_filesystem-mgw45-mt-d-1_54 \
- -l boost_program_options-mgw45-mt-d-1_54 \
- -l boost_thread-mgw45-mt-d-1_54 \
+ -l boost_system-mgw45-mt-d-1_49 \
+ -l boost_filesystem-mgw45-mt-d-1_49 \
+ -l boost_program_options-mgw45-mt-d-1_49 \
+ -l boost_thread-mgw45-mt-d-1_49 \
  -l db_cxx \
  -l ssl \
  -l crypto
@@ -83,7 +83,7 @@ obj-test/%.o: test/%.cpp $(HEADERS)
 	g++ -c $(TESTDEFS) $(CFLAGS) -o $@ $<
 
 test_earthcoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
-	g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework-mgw45-mt-d-1_54 $(LIBS)
+	g++ $(CFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework-mgw45-mt-d-1_49 $(LIBS)
 
 clean:
 	rm -f earthcoind.exe test_earthcoin.exe
