@@ -15,14 +15,14 @@ remotes:
 - "url": "https://github.com/earthcoinproject/earthcoin.git"
   "dir": "earthcoin"
 files:
-- "qt-win32-4.7.4-gitian.zip"
+- "qt-win32-4.8.3-gitian-r4.zip"
 - "boost-win32-1.49.0-gitian2.zip"
 - "bitcoin-deps-0.0.4.zip"
 script: |
   #
   mkdir $HOME/qt
   cd $HOME/qt
-  unzip ../build/qt-win32-4.7.4-gitian.zip
+  unzip ../build/qt-win32-4.8.3-gitian-r4.zip
   cd $HOME/build/
   export PATH=$PATH:$HOME/qt/bin/
   #
