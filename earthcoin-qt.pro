@@ -2,7 +2,7 @@
 TEMPLATE = app
 TARGET = earthcoin-qt
 macx:TARGET = EarthCoin-Qt
-VERSION = 1.2.0
+VERSION = 1.2.1
 INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE USE_IPV6
 CONFIG += no_include_pwd
